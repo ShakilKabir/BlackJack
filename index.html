@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="start" >
+            <h1 class="heading">Welcome To Blackjack!</h1>
+            <button class="dealBtn" onclick="deal()">Deal</button>
+        </div>
+        <div class="board" style="display: none; margin-top: 100px;">
+            <div class="dealer">
+                <div class="dealerCard"></div>
+            </div>
+
+            <div class="divider">
+                <button class="dealBtn" onclick="hit()">Hit</button>
+                <div class="score">
+                    <h3 class="dealerScore"></h3>
+                    <p>VS</p>
+                    <h3 class="playerScore"></h3>
+                </div>
+                <button class="dealBtn" onclick="stand()">Stand</button>
+            </div>
+
+            <div class="player">
+                <div class="playerCard"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="custom.js"></script>
+</html>

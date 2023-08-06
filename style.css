@@ -1,0 +1,56 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.start{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.dealBtn{
+    width: 100px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    font: bold;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.dealBtn:hover{
+    background-color: gray;
+}
+
+.dealer, .player{
+    display: flex;
+    justify-content: center;
+}
+
+.dealerCard, .playerCard{
+    display: flex;
+    gap: 7px;
+}
+
+.dealerCard p, .playerCard p{
+    width: 120px;
+    height: 170px;
+    border-radius: 5px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.divider{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px 20px 0px;
+    align-items: center;
+}
+
+.score{
+    text-align: center;
+}
